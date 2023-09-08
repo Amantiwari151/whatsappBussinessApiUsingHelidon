@@ -1,0 +1,87 @@
+Manifest-Version: 1.0
+Built-By: dell
+Build-Jdk: 17.0.7
+Class-Path: libs/microprofile-config-api-1.4.jar libs/microprofile-fault
+ -tolerance-api-2.1.1.jar libs/microprofile-health-api-2.2.jar libs/micr
+ oprofile-metrics-api-2.3.2.jar libs/microprofile-jwt-auth-api-1.1.1.jar
+  libs/microprofile-openapi-api-1.2.jar libs/microprofile-rest-client-ap
+ i-2.0.jar libs/microprofile-opentracing-api-1.3.3.jar libs/helidon-micr
+ oprofile-2.4.2.jar libs/helidon-microprofile-core-2.4.2.jar libs/helido
+ n-microprofile-server-2.4.2.jar libs/helidon-microprofile-cdi-2.4.2.jar
+  libs/weld-se-core-2.4.2.jar libs/weld-core-impl-2.4.2.jar libs/weld-en
+ vironment-common-3.1.6.Final.jar libs/jboss-logging-3.2.1.Final.jar lib
+ s/jboss-classfilewriter-1.2.5.Final.jar libs/helidon-webserver-2.4.2.ja
+ r libs/helidon-media-common-2.4.2.jar libs/helidon-logging-common-2.4.2
+ .jar libs/opentracing-api-0.33.0.jar libs/opentracing-noop-0.33.0.jar l
+ ibs/netty-codec-http-4.1.73.Final.jar libs/netty-common-4.1.73.Final.ja
+ r libs/netty-transport-4.1.73.Final.jar libs/netty-codec-4.1.73.Final.j
+ ar libs/netty-codec-http2-4.1.73.Final.jar libs/netty-handler-4.1.73.Fi
+ nal.jar libs/netty-resolver-4.1.73.Final.jar libs/netty-tcnative-classe
+ s-2.0.46.Final.jar libs/helidon-webserver-static-content-2.4.2.jar libs
+ /helidon-webserver-jersey-2.4.2.jar libs/helidon-jersey-server-2.4.2.ja
+ r libs/netty-buffer-4.1.73.Final.jar libs/helidon-common-service-loader
+ -2.4.2.jar libs/jakarta.interceptor-api-1.2.5.jar libs/jakarta.enterpri
+ se.cdi-api-2.0.2.jar libs/jakarta.el-api-3.0.3.jar libs/helidon-media-j
+ sonp-2.4.2.jar libs/helidon-jersey-media-jsonp-2.4.2.jar libs/jersey-me
+ dia-json-processing-2.35.jar libs/jsonp-jaxrs-1.1.6.jar libs/helidon-mi
+ croprofile-config-2.4.2.jar libs/helidon-config-mp-2.4.2.jar libs/jakar
+ ta.annotation-api-1.3.5.jar libs/helidon-common-2.4.2.jar libs/helidon-
+ config-yaml-mp-2.4.2.jar libs/helidon-config-yaml-2.4.2.jar libs/snakey
+ aml-1.27.jar libs/helidon-config-encryption-2.4.2.jar libs/helidon-comm
+ on-key-util-2.4.2.jar libs/helidon-common-crypto-2.4.2.jar libs/helidon
+ -config-object-mapping-2.4.2.jar libs/helidon-microprofile-health-2.4.2
+ .jar libs/helidon-health-2.4.2.jar libs/helidon-webserver-cors-2.4.2.ja
+ r libs/helidon-health-common-2.4.2.jar libs/helidon-health-checks-2.4.2
+ .jar libs/helidon-config-2.4.2.jar libs/helidon-common-reactive-2.4.2.j
+ ar libs/helidon-common-mapper-2.4.2.jar libs/helidon-common-media-type-
+ 2.4.2.jar libs/helidon-microprofile-metrics-2.4.2.jar libs/helidon-serv
+ ice-common-rest-cdi-2.4.2.jar libs/helidon-service-common-rest-2.4.2.ja
+ r libs/helidon-metrics-api-2.4.2.jar libs/helidon-common-http-2.4.2.jar
+  libs/helidon-config-metadata-2.4.2.jar libs/helidon-metrics-service-ap
+ i-2.4.2.jar libs/helidon-metrics-2.4.2.jar libs/helidon-microprofile-fa
+ ult-tolerance-2.4.2.jar libs/helidon-fault-tolerance-2.4.2.jar libs/hel
+ idon-common-configurable-2.4.2.jar libs/jersey-weld2-se-2.35.jar libs/j
+ ersey-server-2.35.jar libs/jakarta.validation-api-2.0.2.jar libs/jersey
+ -cdi1x-2.35.jar libs/weld-api-3.1.SP2.jar libs/weld-spi-3.1.SP2.jar lib
+ s/helidon-microprofile-jwt-auth-2.4.2.jar libs/helidon-security-jwt-2.4
+ .2.jar libs/helidon-security-util-2.4.2.jar libs/helidon-security-2.4.2
+ .jar libs/opentracing-util-0.33.0.jar libs/helidon-security-integration
+ -jersey-2.4.2.jar libs/helidon-security-annotations-2.4.2.jar libs/heli
+ don-microprofile-security-2.4.2.jar libs/helidon-bundles-security-2.4.2
+ .jar libs/helidon-security-providers-header-2.4.2.jar libs/helidon-secu
+ rity-providers-http-auth-2.4.2.jar libs/helidon-security-providers-http
+ -sign-2.4.2.jar libs/helidon-security-providers-jwt-2.4.2.jar libs/heli
+ don-security-providers-abac-2.4.2.jar libs/helidon-security-providers-o
+ idc-2.4.2.jar libs/helidon-security-providers-oidc-common-2.4.2.jar lib
+ s/helidon-webclient-security-2.4.2.jar libs/helidon-webclient-tracing-2
+ .4.2.jar libs/helidon-webclient-2.4.2.jar libs/netty-handler-proxy-4.1.
+ 73.Final.jar libs/netty-codec-socks-4.1.73.Final.jar libs/helidon-secur
+ ity-abac-time-2.4.2.jar libs/helidon-security-abac-role-2.4.2.jar libs/
+ helidon-security-abac-scope-2.4.2.jar libs/helidon-security-abac-policy
+ -2.4.2.jar libs/helidon-security-integration-webserver-2.4.2.jar libs/h
+ elidon-security-providers-common-2.4.2.jar libs/helidon-security-integr
+ ation-jersey-client-2.4.2.jar libs/helidon-security-integration-common-
+ 2.4.2.jar libs/helidon-tracing-config-2.4.2.jar libs/helidon-jersey-com
+ mon-2.4.2.jar libs/helidon-webclient-jaxrs-2.4.2.jar libs/helidon-micro
+ profile-openapi-2.4.2.jar libs/helidon-openapi-2.4.2.jar libs/smallrye-
+ open-api-core-2.0.26.jar libs/smallrye-open-api-jaxrs-2.0.26.jar libs/h
+ elidon-microprofile-rest-client-2.4.2.jar libs/helidon-common-context-2
+ .4.2.jar libs/jersey-mp-rest-client-2.35.jar libs/reactive-streams-1.0.
+ 3.jar libs/jersey-media-sse-2.35.jar libs/helidon-microprofile-tracing-
+ 2.4.2.jar libs/helidon-tracing-jersey-2.4.2.jar libs/helidon-tracing-2.
+ 4.2.jar libs/helidon-tracing-jersey-client-2.4.2.jar libs/helidon-traci
+ ng-tracer-resolver-2.4.2.jar libs/opentracing-tracerresolver-0.1.8.jar 
+ libs/jersey-media-json-binding-2.35.jar libs/jersey-common-2.35.jar lib
+ s/osgi-resource-locator-1.0.3.jar libs/jakarta.json-1.1.6.jar libs/jaka
+ rta.json.bind-api-1.0.2.jar libs/yasson-1.0.8.jar libs/jakarta.json-1.1
+ .6-module.jar libs/jandex-2.3.1.Final.jar libs/jakarta.activation-api-1
+ .2.2.jar libs/httpclient-4.5.13.jar libs/httpcore-4.4.13.jar libs/commo
+ ns-logging-1.2.jar libs/commons-codec-1.15.jar libs/helidon-jersey-clie
+ nt-2.4.2.jar libs/jersey-client-2.35.jar libs/jakarta.ws.rs-api-2.1.6.j
+ ar libs/jersey-hk2-2.35.jar libs/hk2-locator-2.6.1.jar libs/aopalliance
+ -repackaged-2.6.1.jar libs/hk2-api-2.6.1.jar libs/hk2-utils-2.6.1.jar l
+ ibs/javassist-3.25.0-GA.jar libs/jakarta.xml.bind-api-2.3.3.jar libs/ja
+ karta.inject-api-1.0.jar libs/bcprov-jdk15on-1.70.jar
+Main-Class: io.helidon.microprofile.cdi.Main
+Created-By: Maven Integration for Eclipse
+
