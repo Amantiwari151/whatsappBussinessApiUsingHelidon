@@ -4,6 +4,7 @@ import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
 
+import javax.json.Json;
 import javax.net.ssl.SSLContext;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -20,11 +21,13 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.ssl.SSLContextBuilder;
 import org.eclipse.microprofile.openapi.annotations.parameters.RequestBody;
 
+import com.google.gson.JsonObject;
+
 import gov.psn.wpintegration.request.WhatsAppMessageRequest;
 
 public class SharingMessageUsingWhatsApp {
 	
-	public static String sendWhatsAppMessage( String token, String url ,WhatsAppMessageRequest whatsAppMessageRequest)  {
+	public static String sendWhatsAppMessage( String token, String url ,String data)  {
 		System.out.println("correct url - " + url);
 		System.out.println("token - " + token);
 		String responseBody = "";
@@ -56,7 +59,7 @@ public class SharingMessageUsingWhatsApp {
 		        requestBuilder.header("Authorization", token);
 		        
 //		        String jsonData = "{\"messaging_product\":\"whatsapp\",\"to\":\"918107772560\",\"type\":\"template\",\"template\":{\"name\":\"hello_world\",\"language\":{\"code\":\"en_US\"}}}";
-		        Entity<WhatsAppMessageRequest> entity = Entity.entity(whatsAppMessageRequest, MediaType.APPLICATION_JSON);
+		        Entity<String> entity = Entity.entity(data, MediaType.APPLICATION_JSON);
 		        
 		        Response response = requestBuilder.method("POST", entity);
 		        

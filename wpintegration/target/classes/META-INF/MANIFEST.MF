@@ -74,14 +74,15 @@ Class-Path: libs/microprofile-config-api-1.4.jar libs/microprofile-fault
  libs/jersey-media-json-binding-2.35.jar libs/jersey-common-2.35.jar lib
  s/osgi-resource-locator-1.0.3.jar libs/jakarta.json-1.1.6.jar libs/jaka
  rta.json.bind-api-1.0.2.jar libs/yasson-1.0.8.jar libs/jakarta.json-1.1
- .6-module.jar libs/jandex-2.3.1.Final.jar libs/jakarta.activation-api-1
- .2.2.jar libs/httpclient-4.5.13.jar libs/httpcore-4.4.13.jar libs/commo
- ns-logging-1.2.jar libs/commons-codec-1.15.jar libs/helidon-jersey-clie
- nt-2.4.2.jar libs/jersey-client-2.35.jar libs/jakarta.ws.rs-api-2.1.6.j
- ar libs/jersey-hk2-2.35.jar libs/hk2-locator-2.6.1.jar libs/aopalliance
- -repackaged-2.6.1.jar libs/hk2-api-2.6.1.jar libs/hk2-utils-2.6.1.jar l
- ibs/javassist-3.25.0-GA.jar libs/jakarta.xml.bind-api-2.3.3.jar libs/ja
- karta.inject-api-1.0.jar libs/bcprov-jdk15on-1.70.jar
+ .6-module.jar libs/jandex-2.3.1.Final.jar libs/gson-2.8.6.jar libs/jaka
+ rta.activation-api-1.2.2.jar libs/httpclient-4.5.13.jar libs/httpcore-4
+ .4.13.jar libs/commons-logging-1.2.jar libs/commons-codec-1.15.jar libs
+ /helidon-jersey-client-2.4.2.jar libs/jersey-client-2.35.jar libs/jakar
+ ta.ws.rs-api-2.1.6.jar libs/jersey-hk2-2.35.jar libs/hk2-locator-2.6.1.
+ jar libs/aopalliance-repackaged-2.6.1.jar libs/hk2-api-2.6.1.jar libs/h
+ k2-utils-2.6.1.jar libs/javassist-3.25.0-GA.jar libs/jakarta.xml.bind-a
+ pi-2.3.3.jar libs/jakarta.inject-api-1.0.jar libs/bcprov-jdk15on-1.70.j
+ ar
 Main-Class: io.helidon.microprofile.cdi.Main
 Created-By: Maven Integration for Eclipse
 

@@ -6,8 +6,11 @@ import java.security.NoSuchAlgorithmException;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
+import javax.json.Json;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
+
+import com.google.gson.Gson;
 
 import gov.psn.wpintegration.exception.WhatsappException;
 import gov.psn.wpintegration.request.WhatsAppMessageRequest;
@@ -27,10 +30,13 @@ public class WhatsAppMessageServiceImpl implements WhatsAppMessageService{
 	
 	@Override
 	public String sendWhatsAppMessage(WhatsAppMessageRequest whatsAppMessageRequest) throws WhatsappException {
+		Gson gson = new Gson();
+		String json = gson.toJson(whatsAppMessageRequest);
 		
+	
 		System.out.println(url);
 		System.out.println(token);
-		String sendWhatsAppMessage = SharingMessageUsingWhatsApp.sendWhatsAppMessage(token, url, whatsAppMessageRequest);
+		String sendWhatsAppMessage = SharingMessageUsingWhatsApp.sendWhatsAppMessage(token, url, json);
 		System.out.println(sendWhatsAppMessage);
 		
 		return sendWhatsAppMessage;
